@@ -2,4 +2,4 @@
   (:gen-class))
 
 (defn -main [& args]
-  (print "Hello, World!"))
+  (println "Hello, World!"))
