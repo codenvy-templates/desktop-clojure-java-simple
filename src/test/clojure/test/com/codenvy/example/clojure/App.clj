@@ -1,6 +1,6 @@
-(ns test.app
+(ns test.com.codenvy.example.clojure.App
   (:use clojure.test
-        app))
+        com.codenvy.example.clojure.App))
 
 (deftest test-main
   (let [result (with-out-str (-main))]

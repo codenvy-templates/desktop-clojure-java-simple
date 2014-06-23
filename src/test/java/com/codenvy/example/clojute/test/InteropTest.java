@@ -1,6 +1,6 @@
-package app.test;
+package com.codenvy.example.clojute.test;
 
-import interop.Sample;
+import com.codenvy.example.clojure.App;
 
 import org.junit.Test;
 
@@ -8,7 +8,7 @@ public class InteropTest {
 
     @Test
     public void testInteropCall() {
-        Sample sample = new Sample();
+        App sample = new App();
         sample.main(new String[] {"Clojure"});
     }
 }
